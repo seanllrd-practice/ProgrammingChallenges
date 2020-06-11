@@ -1,0 +1,7 @@
+C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\NameGenerator\NameGenerator\bin\Debug\NameGenerator.exe.config
+C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\NameGenerator\NameGenerator\bin\Debug\NameGenerator.exe
+C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\NameGenerator\NameGenerator\bin\Debug\NameGenerator.pdb
+C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\NameGenerator\NameGenerator\obj\Debug\NameGenerator.csprojAssemblyReference.cache
+C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\NameGenerator\NameGenerator\obj\Debug\NameGenerator.csproj.CoreCompileInputs.cache
+C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\NameGenerator\NameGenerator\obj\Debug\NameGenerator.exe
+C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\NameGenerator\NameGenerator\obj\Debug\NameGenerator.pdb
