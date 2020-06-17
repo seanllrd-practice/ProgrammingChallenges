@@ -37,6 +37,8 @@ namespace EncryptionDecryptionAlgorithm
                 error = result[0].ToString();
                 quit = Convert.ToBoolean(result[1]);
             }
+
+            Console.WriteLine("\nThank you for playing!");
         }
 
         private static int GetOption(List<string> options, string error)

@@ -13,6 +13,7 @@ namespace MenuNS
     {
         static void Main()
         {
+            bool quit = false;
             List<string> programNames = new List<string>
             {
                 "Name Generator",
@@ -23,32 +24,29 @@ namespace MenuNS
                 "Quit"
             };
 
-            string gameChoice = SelectProgram(programNames);
-
-            switch (gameChoice)
+            while (!quit)
             {
-                case "Name Generator":
-                    NameGenerator.GenerateName();
-                    break;
-                case "Higher/Lower, Heads/Tails":
-                    HigherLowerHeadsTails.SelectGame();
-                    break;
-                case "Temperature Converter":
-                    TemperatureConverter.ConvertTemperature();
-                    break;
-                case "Calculate Age":
-                    CalculateAgeinSeconds.CalculateAge();
-                    break;
-                case "Encryption/Decryption":
-                    EncryptionDecryption.Menu();
-                    break;
-                case "Quit":
-                    break;
-                default:
-                    Console.WriteLine("Invaild input.");
-                    break;
-            }
+                Console.Clear();
+                string programChoice = SelectProgram(programNames);
 
+                RunProgram(programChoice);
+
+                if (programChoice != "Quit")
+                {
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.Write("\nSelect another program [y/n]?\n> ");
+                    string input = Console.ReadLine();
+                    Console.ResetColor();
+
+                    if (input == "y" || input == "yes")
+                    {
+                        continue;
+                    }
+                }
+
+                quit = true;
+            }
+            
             Console.Clear();
             Console.WriteLine("Thank you for playing!\n");
             Console.Write("Press enter to exit...");
@@ -98,6 +96,33 @@ namespace MenuNS
 
             Console.Clear();
             return programs[number - 1];
+        }
+
+        static void RunProgram(string program)
+        {
+            switch (program)
+            {
+                case "Name Generator":
+                    NameGenerator.GenerateName();
+                    break;
+                case "Higher/Lower, Heads/Tails":
+                    HigherLowerHeadsTails.SelectGame();
+                    break;
+                case "Temperature Converter":
+                    TemperatureConverter.Menu();
+                    break;
+                case "Calculate Age":
+                    CalculateAgeinSeconds.CalculateAge();
+                    break;
+                case "Encryption/Decryption":
+                    EncryptionDecryption.Menu();
+                    break;
+                case "Quit":
+                    break;
+                default:
+                    Console.WriteLine("Invaild input.");
+                    break;
+            }
         }
     }
 }

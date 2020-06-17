@@ -67,10 +67,7 @@ namespace CalculateAgeinSecondsNS
                 Console.ReadLine();
             }
 
-            Console.Write("Press enter to quit...");
-            Console.ReadLine();
-
-            Environment.Exit(0);
+            Console.WriteLine("\nThank you for playing!");
         }
     }
 }

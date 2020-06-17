@@ -17,31 +17,59 @@ namespace NameGeneratorNS
 
         public static void GenerateName()
         {
-            int length = GetNameLength();
-            
-            string result = RandomName(Convert.ToInt32(length));
-            Console.WriteLine(result);
-            Console.ReadLine();
+            bool quit = false;
+            while (!quit)
+            {
+                Console.Clear();
+
+                int length = GetNameLength();
+
+                string result = RandomName(Convert.ToInt32(length));
+
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine($"\n{result}\n");
+
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.Write("Generate another name [y/n]?\n> ");
+                string input = Console.ReadLine();
+                Console.ResetColor();
+
+                if (input == "n" || input == "no")
+                {
+                    quit = true;
+                }
+            }
         }
 
         static int GetNameLength()
         {
             int number;
+            string error = "";
 
             while (true)
             {
-                Console.Write("Enter length of username: ");
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("Name Generator\n");
+
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(error);
+
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.Write("Enter length of username\n> ");
                 string input = Console.ReadLine();
 
                 if (!Int32.TryParse(input, out number))
                 {
-                    Console.WriteLine("Invalid input. Please enter a number only.");
+                    error = "Invalid input. Please enter a number only.\n";
                     continue;
                 }
 
                 break;
             }
 
+            Console.ResetColor();
             return number;
         }
 

@@ -1,6 +1,8 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,10 +13,10 @@ namespace TemperatureConverterNS
     {
         private static void Main()
         {
-            ConvertTemperature();
+            Menu();
         }
 
-        public static void ConvertTemperature()
+        public static void Menu()
         {
             bool quit = false;
             while (!quit)
@@ -43,24 +45,30 @@ namespace TemperatureConverterNS
                     Console.ResetColor();
 
                     List<string> information = providedConversion.Split().ToList();
+                    if (information.Count != 3)
+                    {
+                        error = "You did not provide enough information.\n";
+                        continue;
+                    }
 
-                    bool canConvertTemp = checkInput(information[0], typeof(decimal));
-                    bool canConvertScale1 = checkInput(information[1], typeof(char));
-                    bool canConvertScale2 = checkInput(information[2], typeof(char));
+
+                    bool canConvertTemp = CheckInput(information[0], typeof(decimal));
+                    bool canConvertScale1 = CheckInput(information[1], typeof(char));
+                    bool canConvertScale2 = CheckInput(information[2], typeof(char));
 
                     if (!canConvertTemp)
                     {
-                        Console.WriteLine("Invalid Temperature. Temperature should be an integer.\n");
+                        error = "Invalid Temperature. Temperature should be an integer.\n";
                         continue;
                     }
                     else if (!canConvertScale1)
                     {
-                        Console.WriteLine("Invalid Starting Scale. Starting Scale should be F, C, or K.\n");
+                        error = "Invalid Starting Scale. Starting Scale should be F, C, or K.\n";
                         continue;
                     }
                     else if (!canConvertScale2)
                     {
-                        Console.WriteLine("Invalid Conversion Scale. Conversion Scale should be F, C, or K.\n");
+                        error = "Invalid Conversion Scale. Conversion Scale should be F, C, or K.\n";
                         continue;
                     }
 
@@ -70,7 +78,7 @@ namespace TemperatureConverterNS
                     break;
                 }
 
-                decimal newTemperature = convertTemp(temperature, scale1, scale2);
+                decimal newTemperature = ConvertTemperature(temperature, scale1, scale2);
 
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine($"Provided Temperature:{temperature} {scale1}\nConverted Temperature: {newTemperature} {scale2}\n");
@@ -79,22 +87,21 @@ namespace TemperatureConverterNS
                 Console.Write("Continue [y/n]?: ");
                 string input = Console.ReadLine();
 
-                if (input == "n" || input == "no")
-                {
-                    Console.Write("Press enter to quit...");
-                    quit = true;
-                }
-                else
+                if (input == "y" || input == "yes")
                 {
                     Console.Write("Press enter to continue...");
+                    Console.ReadLine();
+                    Console.ResetColor();
+                    continue;
                 }
-                Console.ReadLine();
                 Console.ResetColor();
+                quit = true;
             }
-            Environment.Exit(0);
+
+            Console.WriteLine("\nThanks for playing!");         
         }
 
-        static bool checkInput(string input, Type type)
+        static bool CheckInput(string input, Type type)
         {
             bool result = false;
 
@@ -113,10 +120,11 @@ namespace TemperatureConverterNS
                         result = false;
                 }
             }
+
             return result;
         }
 
-        static decimal convertTemp(decimal temp, char firstScale, char secondScale)
+        static decimal ConvertTemperature(decimal temp, char firstScale, char secondScale)
         {
             string scales = String.Concat(firstScale, secondScale);
             decimal convertedTemp;
