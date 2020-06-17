@@ -12,3 +12,10 @@ C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\Challenges\00Na
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\Challenges\00NameGenerator\NameGenerator\obj\Release\NameGenerator.csproj.CoreCompileInputs.cache
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\Challenges\00NameGenerator\NameGenerator\obj\Release\NameGenerator.dll
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\Challenges\00NameGenerator\NameGenerator\obj\Release\NameGenerator.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\00NameGenerator\NameGenerator\bin\Release\NameGenerator.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\00NameGenerator\NameGenerator\obj\Release\NameGenerator.csprojAssemblyReference.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\00NameGenerator\NameGenerator\obj\Release\NameGenerator.csproj.CoreCompileInputs.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\00NameGenerator\NameGenerator\obj\Release\NameGenerator.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\00NameGenerator\NameGenerator\bin\Release\NameGenerator.exe.config
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\00NameGenerator\NameGenerator\bin\Release\NameGenerator.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\00NameGenerator\NameGenerator\obj\Release\NameGenerator.exe

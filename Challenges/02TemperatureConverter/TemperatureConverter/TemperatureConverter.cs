@@ -9,7 +9,12 @@ namespace TemperatureConverterNS
 {
     public class TemperatureConverter
     {
-        public static void Main()
+        private static void Main()
+        {
+            ConvertTemperature();
+        }
+
+        public static void ConvertTemperature()
         {
             bool quit = false;
             while (!quit)

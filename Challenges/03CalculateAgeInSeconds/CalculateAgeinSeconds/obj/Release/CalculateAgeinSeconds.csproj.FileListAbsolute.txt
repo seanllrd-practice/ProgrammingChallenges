@@ -5,3 +5,10 @@ C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\03CalculateAgeI
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\03CalculateAgeInSeconds\CalculateAgeinSeconds\bin\Release\CalculateAgeinSeconds.dll.config
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\03CalculateAgeInSeconds\CalculateAgeinSeconds\bin\Release\CalculateAgeinSeconds.dll
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\03CalculateAgeInSeconds\CalculateAgeinSeconds\obj\Release\CalculateAgeinSeconds.dll
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\03CalculateAgeInSeconds\CalculateAgeinSeconds\bin\Release\CalculateAgeinSeconds.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\03CalculateAgeInSeconds\CalculateAgeinSeconds\obj\Release\CalculateAgeinSeconds.csprojAssemblyReference.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\03CalculateAgeInSeconds\CalculateAgeinSeconds\obj\Release\CalculateAgeinSeconds.csproj.CoreCompileInputs.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\03CalculateAgeInSeconds\CalculateAgeinSeconds\obj\Release\CalculateAgeinSeconds.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\03CalculateAgeInSeconds\CalculateAgeinSeconds\bin\Release\CalculateAgeinSeconds.exe.config
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\03CalculateAgeInSeconds\CalculateAgeinSeconds\bin\Release\CalculateAgeinSeconds.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\03CalculateAgeInSeconds\CalculateAgeinSeconds\obj\Release\CalculateAgeinSeconds.exe

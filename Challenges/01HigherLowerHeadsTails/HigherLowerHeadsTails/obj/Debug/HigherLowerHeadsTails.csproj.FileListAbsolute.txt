@@ -12,3 +12,10 @@ C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\01HigherLowerHe
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\01HigherLowerHeadsTails\HigherLowerHeadsTails\obj\Debug\HigherLowerHeadsTails.csproj.CoreCompileInputs.cache
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\01HigherLowerHeadsTails\HigherLowerHeadsTails\obj\Debug\HigherLowerHeadsTails.exe
 C:\Users\seanl\Documents\Programming\programming-challenges-v1.4\01HigherLowerHeadsTails\HigherLowerHeadsTails\obj\Debug\HigherLowerHeadsTails.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\01HigherLowerHeadsTails\HigherLowerHeadsTails\bin\Debug\HigherLowerHeadsTails.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\01HigherLowerHeadsTails\HigherLowerHeadsTails\obj\Debug\HigherLowerHeadsTails.csprojAssemblyReference.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\01HigherLowerHeadsTails\HigherLowerHeadsTails\obj\Debug\HigherLowerHeadsTails.csproj.CoreCompileInputs.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\01HigherLowerHeadsTails\HigherLowerHeadsTails\obj\Debug\HigherLowerHeadsTails.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\01HigherLowerHeadsTails\HigherLowerHeadsTails\obj\Debug\HigherLowerHeadsTails.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\01HigherLowerHeadsTails\HigherLowerHeadsTails\bin\Debug\HigherLowerHeadsTails.exe.config
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\01HigherLowerHeadsTails\HigherLowerHeadsTails\bin\Debug\HigherLowerHeadsTails.exe

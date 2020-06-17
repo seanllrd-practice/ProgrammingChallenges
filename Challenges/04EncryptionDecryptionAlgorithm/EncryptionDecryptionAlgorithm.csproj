@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{197D064E-5DBF-45D9-BB7F-6C54599F1D96}</ProjectGuid>
+    <ProjectGuid>{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>EncryptionDecryptionAlgorithm</RootNamespace>
     <AssemblyName>EncryptionDecryptionAlgorithm</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="EncryptionDecryption.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

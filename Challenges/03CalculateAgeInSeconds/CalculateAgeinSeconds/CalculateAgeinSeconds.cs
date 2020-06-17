@@ -8,7 +8,12 @@ namespace CalculateAgeinSecondsNS
 {
     public class CalculateAgeinSeconds
     {
-        public static void Main()
+        private static void Main()
+        {
+            CalculateAge();
+        }
+
+        public static void CalculateAge()
         {
             bool quit = false;
             while (!quit)

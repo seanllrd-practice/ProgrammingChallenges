@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConverter", "02T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAgeinSeconds", "03CalculateAgeInSeconds\CalculateAgeinSeconds\CalculateAgeinSeconds.csproj", "{4D85165A-E6D1-4CAB-A7D7-A240EB75E7CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionDecryptionAlgorithm", "EncryptionDecryptionAlgorithm\EncryptionDecryptionAlgorithm.csproj", "{197D064E-5DBF-45D9-BB7F-6C54599F1D96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionDecryptionAlgorithm", "04EncryptionDecryptionAlgorithm\EncryptionDecryptionAlgorithm.csproj", "{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{4D85165A-E6D1-4CAB-A7D7-A240EB75E7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D85165A-E6D1-4CAB-A7D7-A240EB75E7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D85165A-E6D1-4CAB-A7D7-A240EB75E7CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{197D064E-5DBF-45D9-BB7F-6C54599F1D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{197D064E-5DBF-45D9-BB7F-6C54599F1D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{197D064E-5DBF-45D9-BB7F-6C54599F1D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{197D064E-5DBF-45D9-BB7F-6C54599F1D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

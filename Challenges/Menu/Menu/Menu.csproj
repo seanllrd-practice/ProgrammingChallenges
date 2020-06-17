@@ -33,16 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CalculateAgeinSeconds">
-      <HintPath>..\..\03CalculateAgeInSeconds\CalculateAgeinSeconds\bin\Release\CalculateAgeinSeconds.dll</HintPath>
-    </Reference>
-    <Reference Include="HigherLowerHeadsTails">
-      <HintPath>..\..\01HigherLowerHeadsTails\HigherLowerHeadsTails\bin\Release\HigherLowerHeadsTails.dll</HintPath>
-    </Reference>
-    <Reference Include="NameGenerator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\00NameGenerator\NameGenerator\bin\Release\NameGenerator.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,9 +41,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="TemperatureConverter">
-      <HintPath>..\..\02TemperatureConverter\TemperatureConverter\bin\Release\TemperatureConverter.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Menu.cs" />
@@ -61,6 +48,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\00NameGenerator\NameGenerator\NameGenerator.csproj">
+      <Project>{726e9f56-1d91-4542-bdf0-b248654ceeeb}</Project>
+      <Name>NameGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01HigherLowerHeadsTails\HigherLowerHeadsTails\HigherLowerHeadsTails.csproj">
+      <Project>{4b807b2a-1181-4e1c-805e-99aaa7410f7c}</Project>
+      <Name>HigherLowerHeadsTails</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\02TemperatureConverter\TemperatureConverter\TemperatureConverter.csproj">
+      <Project>{82eeb90c-e434-4f17-9a94-062e503af78a}</Project>
+      <Name>TemperatureConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03CalculateAgeInSeconds\CalculateAgeinSeconds\CalculateAgeinSeconds.csproj">
+      <Project>{4d85165a-e6d1-4cab-a7d7-a240eb75e7ca}</Project>
+      <Name>CalculateAgeinSeconds</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04EncryptionDecryptionAlgorithm\EncryptionDecryptionAlgorithm.csproj">
+      <Project>{32cef1e0-9a9a-41b3-8c05-a3bb9717bb1a}</Project>
+      <Name>EncryptionDecryptionAlgorithm</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

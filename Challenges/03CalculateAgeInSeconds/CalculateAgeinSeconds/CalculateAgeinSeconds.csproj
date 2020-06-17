@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4D85165A-E6D1-4CAB-A7D7-A240EB75E7CA}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>CalculateAgeinSeconds</RootNamespace>
     <AssemblyName>CalculateAgeinSeconds</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>

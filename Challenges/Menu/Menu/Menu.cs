@@ -1,29 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
-using Challenges.NameGenerator;
+using NameGeneratorNS;
 using HigherLowerHeadsTailsNS;
 using TemperatureConverterNS;
 using CalculateAgeinSecondsNS;
 using System.Linq;
+using EncryptionDecryptionAlgorithm;
 
-namespace Menu
+namespace MenuNS
 {
     class Menu
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            List<Action> programs = new List<Action>
+            List<string> programNames = new List<string>
             {
-                NameGenerator.Main,
-                HigherLowerHeadsTails.Main,
-                TemperatureConverter.Main,
-                CalculateAgeinSeconds.Main
+                "Name Generator",
+                "Higher/Lower, Heads/Tails",
+                "Temperature Converter",
+                "Calculate Age",
+                "Encryption/Decryption",
+                "Quit"
             };
 
-            int gameChoice = DisplayMenu(programs);
+            string gameChoice = SelectProgram(programNames);
+
+            switch (gameChoice)
+            {
+                case "Name Generator":
+                    NameGenerator.GenerateName();
+                    break;
+                case "Higher/Lower, Heads/Tails":
+                    HigherLowerHeadsTails.SelectGame();
+                    break;
+                case "Temperature Converter":
+                    TemperatureConverter.ConvertTemperature();
+                    break;
+                case "Calculate Age":
+                    CalculateAgeinSeconds.CalculateAge();
+                    break;
+                case "Encryption/Decryption":
+                    EncryptionDecryption.Menu();
+                    break;
+                case "Quit":
+                    break;
+                default:
+                    Console.WriteLine("Invaild input.");
+                    break;
+            }
+
+            Console.Clear();
+            Console.WriteLine("Thank you for playing!\n");
+            Console.Write("Press enter to exit...");
+            Console.ReadLine();
+            Environment.Exit(0);
         }
 
-        static int DisplayMenu(List<Action> programs)
+        static string SelectProgram(List<string> programs)
         {
             string input;
             int number;
@@ -40,7 +73,7 @@ namespace Menu
 
                 foreach (var game in programs.Select((Value, Index) => new { Value, Index }))
                 {
-                    Console.WriteLine($"{game.Index + 1}. {game.Value.Method.Module}");
+                    Console.WriteLine($"{game.Index + 1}. {game.Value}");
                 }
                 
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -64,7 +97,7 @@ namespace Menu
             }
 
             Console.Clear();
-            return number - 1;
+            return programs[number - 1];
         }
     }
 }

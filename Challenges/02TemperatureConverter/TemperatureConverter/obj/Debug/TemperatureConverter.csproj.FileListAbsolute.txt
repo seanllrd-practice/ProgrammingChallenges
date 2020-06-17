@@ -5,3 +5,10 @@ C:\Users\seanl\Source\Repos\TemperatureConverter\TemperatureConverter\obj\Debug\
 C:\Users\seanl\Source\Repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.CoreCompileInputs.cache
 C:\Users\seanl\Source\Repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
 C:\Users\seanl\Source\Repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\02TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\02TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csprojAssemblyReference.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\02TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.CoreCompileInputs.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\02TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\02TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\02TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe.config
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\02TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe

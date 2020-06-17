@@ -8,7 +8,12 @@ namespace HigherLowerHeadsTailsNS
 {
     public class HigherLowerHeadsTails
     {
-        public static void Main()
+        private static void Main()
+        {
+            SelectGame();
+        }
+
+        public static void SelectGame()
         {
             List<Func<Boolean>> gameList = new List<Func<Boolean>> { HigherLower, HeadsTails, Quit };
             bool quit = false;

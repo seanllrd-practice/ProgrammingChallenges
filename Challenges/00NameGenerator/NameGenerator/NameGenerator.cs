@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 
-namespace Challenges.NameGenerator
+namespace NameGeneratorNS
 {
     public class NameGenerator
     {
-        public static void Main()
+        private static void Main()
+        {
+            GenerateName();
+        }
+
+        public static void GenerateName()
         {
             int length = GetNameLength();
             
