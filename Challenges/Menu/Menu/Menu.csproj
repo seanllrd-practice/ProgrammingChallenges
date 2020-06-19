@@ -70,6 +70,10 @@
       <Project>{32cef1e0-9a9a-41b3-8c05-a3bb9717bb1a}</Project>
       <Name>EncryptionDecryptionAlgorithm</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\FizzBuzz\FizzBuzz.csproj">
+      <Project>{423e6c9a-b219-4461-b124-84a45a8ee40f}</Project>
+      <Name>FizzBuzz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

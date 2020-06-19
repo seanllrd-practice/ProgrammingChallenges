@@ -61,3 +61,6 @@ C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\
 C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Release\CalculateAgeinSeconds.exe.config
 C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Release\EncryptionDecryptionAlgorithm.pdb
 C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Release\EncryptionDecryptionAlgorithm.exe.config
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Release\FizzBuzz.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Release\FizzBuzz.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Release\FizzBuzz.exe.config

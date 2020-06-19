@@ -1,0 +1,7 @@
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\FizzBuzz\bin\Release\FizzBuzz.exe.config
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\FizzBuzz\bin\Release\FizzBuzz.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\FizzBuzz\bin\Release\FizzBuzz.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\FizzBuzz\obj\Release\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\FizzBuzz\obj\Release\FizzBuzz.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\FizzBuzz\obj\Release\FizzBuzz.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\FizzBuzz\obj\Release\FizzBuzz.csprojAssemblyReference.cache

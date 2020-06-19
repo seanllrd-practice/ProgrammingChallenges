@@ -41,3 +41,6 @@ C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\
 C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Debug\HigherLowerHeadsTails.exe
 C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Debug\NameGenerator.exe
 C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Debug\TemperatureConverter.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Debug\FizzBuzz.exe
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Debug\FizzBuzz.pdb
+C:\Users\seanl\Documents\Programming\ProgrammingChallenges\Challenges\Menu\Menu\bin\Debug\FizzBuzz.exe.config

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAgeinSeconds", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionDecryptionAlgorithm", "04EncryptionDecryptionAlgorithm\EncryptionDecryptionAlgorithm.csproj", "{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{423E6C9A-B219-4461-B124-84A45A8EE40F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32CEF1E0-9A9A-41B3-8C05-A3BB9717BB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423E6C9A-B219-4461-B124-84A45A8EE40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423E6C9A-B219-4461-B124-84A45A8EE40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423E6C9A-B219-4461-B124-84A45A8EE40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423E6C9A-B219-4461-B124-84A45A8EE40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

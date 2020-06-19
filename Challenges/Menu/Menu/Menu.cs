@@ -1,19 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using NameGeneratorNS;
-using HigherLowerHeadsTailsNS;
-using TemperatureConverterNS;
-using CalculateAgeinSecondsNS;
 using System.Linq;
-using EncryptionDecryptionAlgorithm;
+using System.Reflection;
+using Challenges;
 
-namespace MenuNS
+namespace Challenges
 {
     class Menu
     {
         static void Main()
         {
             bool quit = false;
+
             List<string> programNames = new List<string>
             {
                 "Name Generator",
@@ -21,6 +19,7 @@ namespace MenuNS
                 "Temperature Converter",
                 "Calculate Age",
                 "Encryption/Decryption",
+                "FizzBuzz",
                 "Quit"
             };
 
@@ -46,7 +45,7 @@ namespace MenuNS
 
                 quit = true;
             }
-            
+
             Console.Clear();
             Console.WriteLine("Thank you for playing!\n");
             Console.Write("Press enter to exit...");
@@ -116,6 +115,9 @@ namespace MenuNS
                     break;
                 case "Encryption/Decryption":
                     EncryptionDecryption.Menu();
+                    break;
+                case "FizzBuzz":
+                    FizzBuzz.Play();
                     break;
                 case "Quit":
                     break;

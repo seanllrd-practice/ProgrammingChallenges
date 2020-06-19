@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 
-namespace NameGeneratorNS
+namespace Challenges
 {
     public class NameGenerator
     {

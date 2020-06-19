@@ -7,7 +7,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EncryptionDecryptionAlgorithm
+namespace Challenges
 {
     public class EncryptionDecryption
     {
